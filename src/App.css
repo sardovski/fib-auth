@@ -1,0 +1,40 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../public/assets/istockphoto-1069166364-612x612-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fb100{
+    flex-basis: 98.5% !important;
+}
+
+.fb48{
+    flex-basis: 48% !important;
+}
+
+
+.error{
+    font-size: .8rem;
+    color: rgb(211, 22, 22);
+}
+
+.error-border{
+    color: rgb(211, 22, 22);
+    border-color: rgb(211, 22, 22);
+}
+
+input,select{
+    border-radius: 3px;
+    border: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+
+}
+::placeholder{
+    color: black;
+}
+
